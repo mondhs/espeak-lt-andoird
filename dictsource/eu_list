@@ -1,0 +1,190 @@
+ 
+// This file is UTF8 encoded 
+// Spelling-to-phoneme words for Basque
+
+b	be
+c	ze
+d	de
+f	'efe
+g	ge
+h	'atSe
+j	J'ota
+k	ka
+l	'ele
+m	'eme
+n	'ene
+Ã±	'en^e
+p	pe
+q	ku
+r	'eR2e
+s	'ese
+t	'te
+v	'uBe
+w	'uBe||bikoitza
+x	'iSa
+y	i||gr'ekoa
+z	'z'eta
+
+_a	a
+_e	e
+_i	i
+_o	o
+_u	u
+
+
+// numbers
+_0	zer'o
+_1	b'at
+_2	b'i
+_3	'iru
+_4	l'aU
+_5	b'ost
+_6	s'eI
+_7	z'azpi
+_8	z'ortzi
+_9	beD'eratzi
+_10	am'aR2
+_11	am'aIka
+_12	am'aBi
+_13	am'aIru
+_14	am'alaU
+_15	am'aBost
+_16	am'aseI
+_17	am'azazpi
+_18	em'ezortzi
+_19	em'eretzi
+_20	oQ'eI
+_2X	oQeIta
+_40	beR2oQ'eI
+_4X	beR2oQeIta
+_60	iruroQ'eI
+_6X	iruroQeIta
+_80	laUroQ'eI
+_8X	laUroQeIta
+_1C	e'un
+_2C	beR2'eun
+_3C	ir'ureun
+_4C	laur'eun
+_5C	bost'eun
+_6C	sei'eun
+_7C	zazp'ieun
+_8C	zortz'ieun
+_9c	bederatz'ieun
+_0C	e,un
+_0M1	m'il^a
+_0M2	mil^'ioI
+_1M2	mil^'ioI||bat
+_0and	eta
+_dpt	_koma
+
+
+// names of punctuation and symbol characters
+_. p'untu
+_, k'oma
+_- gid'oI
+_! arr'idura
+_? gald'era
+_: b'i||p'untu
+_; p'untu||eta||k'oma
+
+// functuion words
+// conjunctions
+eta	$u+ $pause  // and
+baina	$u+ $pause
+
+// pronouns
+ni	$1
+zu	$1
+hura	$1
+gu	$1
+zuek	$1
+haiek	$1
+nire	$u+  
+zure	$u+
+haren	$u+
+bere	$u+
+gure	$u+
+zuen	$u+
+haien	$u+
+beren	$u+
+
+hau	$1	// this
+honen $1 
+hauen $1 
+hori	$1	// that
+horren	$1 // genitive
+hura	$1	// that (further)
+haien $1 // genitive
+
+// Some auxiliary verbs
+gara $2
+zara $2
+dira $2
+
+// gramatical suffixes which can appear as words appended to numbers etc.
+// Should these be in eu_rules ??
+a	$u
+ak $u
+an	$u
+ean	$u
+etan $u
+eko	$u
+etarako $u
+ko	$u
+era	$u
+ra $u
+etara $u
+
+
+// Other words (mostly nouns)
+
+// Bisillabic words which have the stres always in the first syllable
+kaixo $1
+testu $1
+lehia $1
+patu $1
+
+// Bisillabic words whitch get misspronounced with the suffix list
+etxe $1 $only
+kale $1 $only
+aste $1 $only
+urte $1 $only
+
+// j as [x]
+jipoi x'ipoi
+
+// other
+
+aerobiko $3
+aerodinamiko $5
+aerodinamika $5
+aerodromo $3
+aerometro $3
+aeromodelismo $6
+aeronauta $4
+aeronautika $4
+aeronautiko9 $4
+aerosol $4
+aerostatika $4
+aerostato $4
+adrenalina adrenalin2a
+aharraus $2
+aharrausika $2
+ahur aur $only
+ahurr auR2
+
+// Abbreviations
+adib ad'ibidez $hasdot
+
+// proper names and surnames
+juan xw'an
+jorge x'orxe
+jose x'ose
+josé x'os'e
+joaquín xoak'in
+san $u
+santo $u
+aristoteles $3
+hume x'iUm
+nietztsche n'itSe 
+abako $1
